@@ -1,0 +1,86 @@
+html{
+    cursor: url(Assets/Images/Cursors/StarWandCursor.png),auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+main{
+    margin: auto;
+    width: 85%;
+}
+header{
+    padding: 40px;
+    background: radial-gradient(ellipse at center,  #c1ffcdb4 35%,#45ff45b9 60%,#00700bc7);
+    height: 10%;
+    width: 15%;
+    border-radius: 50%;
+    font-size: 20px;
+    border: dotted white 4px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+    text-shadow: 3px 3px 5px black;
+    float: left;
+} 
+nav{
+    border: white dotted 4px;
+    border-radius: 30px;
+    margin-top: 65px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: radial-gradient(ellipse at center,  #ff93dfac 30%,#ff5ebfd7 80%);
+    width: 70%;
+    float: right;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;    background-image: url(Assets/Images/OldFloralWallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+section{
+    border-radius: 40px;
+    border: white dotted 4px;
+    background: radial-gradient(ellipse at center,  #38ad4fc5 30%,#239023d7 70%,#0f5616cb);
+    padding: 30px;
+    width: 90%;
+    height: 50%;
+    float: right;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+
+}
+div{
+    margin-bottom: 30px;
+}
+a:link{
+    background-image: url(Assets/Images/CutePageIcons/HomeIcon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(130, 255, 130);
+}
+a:visited{
+    width: 20px;
+    height: 25px;
+}
+a:hover{
+    cursor: url(Assets/Images/Cursors/StarWandCursorLink.png),auto;
+    background-color: rgb(89, 207, 89);
+}
+a:active{
+    box-shadow: 0px 0px 30px rgb(64, 239, 255);
+}
+audio{
+    margin: 20px;
+}

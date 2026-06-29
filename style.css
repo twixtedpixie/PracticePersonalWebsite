@@ -1,0 +1,93 @@
+html{
+    cursor: url(Assets/Images/Cursors/BaseCursor.png),auto;
+}
+header{
+    background: radial-gradient(ellipse at center,  #aed8f99b 40%,#2989d89e 60%,#2000d8bb 90%);
+    border: solid rgba(0, 0, 143, 0.338);
+    border-width: 5px;
+    border-radius: 90% 50% 90% 50%;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+}
+body{
+    background-image: url(Assets/Images/wp13908388-3676401083.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    border-top: solid 25px rgb(95, 210, 255);
+    border-left: solid rgb(95, 210, 255);
+    border-right: solid rgb(95, 210, 255);
+    border-bottom: solid rgb(95, 210, 255);
+    background: radial-gradient(ellipse at center,  #aed8f99b 40%,#2989d89e 60%,#2000d8bb 90%);
+    width: 10%;
+    height: 59%;
+    margin: auto;
+    border-radius:10px 10px 20px 20px;
+    float: left;
+    padding: 30px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+}
+a:link{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration:none ;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    cursor: url(Assets/Images/Cursors/CursorLink.png),auto;
+    color: rgb(0, 255, 0);
+}
+a:active{
+    color: rgb(0, 187, 255);
+}
+ul{
+    list-style-image: url(Assets/Images/Bubble\ list\ item.png);
+    list-style-type: circle;
+    
+}
+section{
+    border-top: solid 25px rgb(95, 210, 255);
+    border-left: solid rgb(95, 210, 255);
+    border-right: solid rgb(95, 210, 255);
+    border-bottom: solid rgb(95, 210, 255);
+    background: radial-gradient(ellipse at center,  #bbffc99b 40%,#00ff559e 60%,#118200bb 90%);
+    width: 70%;
+    height: 59%;
+    padding: 30px;
+    float: right;
+    border-radius: 10px 10px 20px 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.605);
+    overflow: auto;
+}
+
+main{
+    margin: auto;
+    width: 85%;
+}
+div{
+    margin-top: 20px;
+}
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+audio{
+    float: left;
+    margin: 10px;
+}
